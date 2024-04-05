@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="The Volume program" />
+    <meta name="description" content="Area of Trapezoid, in JS" />
     <meta name="keywords" content="mths, ics2o" />
     <meta name="author" content="Nathan De Silva" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,7 +19,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
     <link rel="manifest" href="site.webmanifest" />
-    <title>Assignment #2</title>
+    <title>Area of a Trapezoid, in JS</title>
   </head>
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
@@ -27,26 +27,26 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">The Volume of a Rectangular Prism</span>
+          <span class="mdl-layout-title">Area of a Trapezoid, in JS</span>
         </div>
       </header>
       <main class="mdl-layout__content">
         <div class="right-image">
-          <img src="./images/SEOBFSMSMATCON168_01.png" alt="volume_of_rectangle" />
-          <div class="page-content">Enter the length, width and height in cm.</div>
+          <img src="./images/trapezoid.svg" alt="area_trapezoid" />
+          <div class="page-content">Please enter integers for dimensions: </div>
         </div>
         <br />
         <!-- Simple Textfield for integers-->
-        <p>Length</p>
+        <p>A base</p>
         <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" id="length">
-          <label class="mdl-textfield__label" for="length">Length...</label>
+          <input class="mdl-textfield__input" type="text" id="a-base">
+          <label class="mdl-textfield__label" for="length">A base...</label>
         </div>
         <!-- Numeric Textfield -->
-        <p>Width</p>
+        <p>B base</p>
         <div class="mdl-textfield mdl-js-textfield">
-          <input class="mdl-textfield__input" type="text" id="width">
-          <label class="mdl-textfield__label" for="width">Width...</label>
+          <input class="mdl-textfield__input" type="text" id="b-base">
+          <label class="mdl-textfield__label" for="width">B base...</label>
           <span class="mdl-textfield__error">Input is not a name!</span>
         </div>
         <br />
@@ -65,7 +65,7 @@
         </button>
         <br />
         <br />
-        <div id="volume-rectangle">
+        <div id="area-trapezoid">
       </main>
     </div>
   </body>

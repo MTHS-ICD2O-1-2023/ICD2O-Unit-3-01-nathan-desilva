@@ -11,14 +11,14 @@
  */
 function doMathClicked() {
   // input
-  const length = parseInt(document.getElementById("length").value)
-  const width = parseInt(document.getElementById("width").value)
+  const basea = parseInt(document.getElementById("a-base").value)
+  const baseb = parseInt(document.getElementById("b-base").value)
   const height = parseInt(document.getElementById("height").value)
 
   // process
-  const volumeOfPrism = length * width * height
+  const volumeOfTrapezoid = ((basea * baseb) / 2) * height
 
   // output
-  document.getElementById("volume-rectangle").innerHTML =
-    "<p>The volume of a rectangular prism is: " + volumeOfPrism + "cm³. </p>"
+  document.getElementById("area-trapezoid").innerHTML =
+    "<p>Area is: " + volumeOfTrapezoid + "mm². </p>"
 }

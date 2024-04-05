@@ -7,7 +7,7 @@
 "use strict"
 
 /**
- * This function calculates volume of a rectangular prism
+ * This function calculates area of a trapezoid
  */
 function doMathClicked() {
   // input
@@ -20,5 +20,5 @@ function doMathClicked() {
 
   // output
   document.getElementById("area-trapezoid").innerHTML =
-    "<p>Area is: " + volumeOfTrapezoid + "mm². </p>"
+    "<p>Area is: " + volumeOfTrapezoid + " mm². </p>"
 }

@@ -16,7 +16,7 @@ function doMathClicked() {
   const height = parseInt(document.getElementById("height").value)
 
   // process
-  const volumeOfTrapezoid = ((basea * baseb) / 2) * height
+  const volumeOfTrapezoid = [(basea + baseb) / 2] * height
 
   // output
   document.getElementById("area-trapezoid").innerHTML =

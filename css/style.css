@@ -25,6 +25,11 @@ p {
   padding-top: 5pt;
 }
 
+div {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+
 img {
   float: right;
 }

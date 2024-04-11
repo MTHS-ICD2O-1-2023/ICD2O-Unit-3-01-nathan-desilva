@@ -1,24 +1,21 @@
-// Copyright (c) 2024 Nathan De Silva All rights reserved
+// Copyright (c) 2024 Nathan De Silva. All rights reserved
 //
 // Created by: Nathan De Silva
-// Created on: Mar 2024
-// This file contains the JS functions for index.html
+// Created on: April 2024
 
-"use strict"
-
+'use strict'
 /**
  * This function calculates area of a trapezoid
  */
-function doMathClicked() {
+function myButtonClicked() {
   // input
-  const basea = parseInt(document.getElementById("a-base").value)
-  const baseb = parseInt(document.getElementById("b-base").value)
-  const height = parseInt(document.getElementById("height").value)
+  const aBase = parseFloat(document.getElementById('a-base').value)
+  const bBase = parseFloat(document.getElementById('b-base').value)
+  const height = parseFloat(document.getElementById('height').value)
 
   // process
-  const volumeOfTrapezoid = [(basea + baseb) / 2] * height
+  const area = ((aBase + bBase) / 2) * height
 
   // output
-  document.getElementById("area-trapezoid").innerHTML =
-    "<p>Area is: " + volumeOfTrapezoid + " mm². </p>"
+  document.getElementById('area').innerHTML = 'The area is: ' + area + ' mm²'
 }
